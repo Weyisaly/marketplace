@@ -43,6 +43,8 @@
   "featuredVendors": "Избранные продавцы",
   "seeAll": "Посмотреть все",
   "searchProducts": "Поиск продуктов",
-  "searchVendors": "Поиск поставщиков"
+  "searchVendors": "Поиск поставщиков",
+  "vendorDetails": "Информация о поставщике",
+    "verifiedVendor": "Проверенный продавец"
 }
 

@@ -1,5 +1,7 @@
 import 'package:adaptix/adaptix.dart';
+import 'package:elimde/screens/vendors/vendor_details/vendor_details_page.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 import 'vendor_card.dart';
@@ -34,7 +36,9 @@ class VendorsList extends StatelessWidget {
             name: vendor.name,
             description: vendor.description,
             products: vendor.products,
-            rating: vendor.rating,
+            rating: vendor.rating, onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> VendorDetailsPage()));
+          },
           );
         },
       ),

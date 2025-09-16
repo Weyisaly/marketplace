@@ -1,9 +1,9 @@
 import 'package:adaptix/adaptix.dart';
 import 'package:flutter/material.dart';
-import '../widgets/product_card.dart';
+import '../../widgets/product_card.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-import '../widgets/product_grid.dart';
+import '../../widgets/product_grid.dart';
 
 class FavoritesPage extends StatelessWidget {
   const FavoritesPage({super.key});

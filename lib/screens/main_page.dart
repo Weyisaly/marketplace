@@ -1,12 +1,12 @@
 import 'package:adaptix/adaptix.dart';
-import 'package:elimde/screens/search_page.dart';
+import 'package:elimde/screens/search/search_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:badges/badges.dart' as badges;
-import 'home_page.dart';
-import 'favorites_page.dart';
-import 'profile_page.dart';
+import 'home/home_page.dart';
+import 'favorites/favorites_page.dart';
+import 'profile/profile_page.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key, this.onThemeChange, this.onLocaleChange});

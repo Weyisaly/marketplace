@@ -2,7 +2,7 @@ import 'package:adaptix/adaptix.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
-import '../screens/home_page.dart';
+import '../screens/home/home_page.dart';
 import 'product_card.dart';
 
 class ProductGridView extends StatelessWidget {

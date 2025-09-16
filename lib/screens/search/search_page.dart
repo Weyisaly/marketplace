@@ -1,9 +1,9 @@
 import 'package:adaptix/adaptix.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import '../widgets/product_grid.dart';
-import '../widgets/text_field.dart';
-import '../widgets/vendor_list.dart';
+import '../../widgets/product_grid.dart';
+import '../../widgets/text_field.dart';
+import '../../widgets/vendor_list.dart';
 
 
 class SearchPage extends StatefulWidget {

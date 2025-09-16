@@ -1,11 +1,12 @@
 import 'package:adaptix/adaptix.dart';
+import 'package:elimde/screens/vendors/vendors_page.dart';
 import 'package:elimde/widgets/gradient_button.dart';
 import 'package:elimde/widgets/slider.dart';
 import 'package:flutter/material.dart';
-import '../widgets/gradient_container.dart';
+import '../../widgets/gradient_container.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import '../widgets/product_grid.dart';
-import '../widgets/vendor_list.dart';
+import '../../widgets/product_grid.dart';
+import '../../widgets/vendor_list.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -72,7 +73,9 @@ class HomePage extends StatelessWidget {
                   children: [
                     Text(s.featuredVendors, style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w700,),),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => VendorsPage()));
+                      },
                       child: Text(s.seeAll, style: theme.textTheme.bodyMedium?.copyWith(color: theme.colorScheme.primary, fontWeight: FontWeight.w600,),),
                     ),
                   ],

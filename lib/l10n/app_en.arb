@@ -43,5 +43,7 @@
   "featuredVendors": "Featured Vendors",
   "seeAll": "See All",
   "searchProducts": "Search Products",
-  "searchVendors": "Search Vendors"
+  "searchVendors": "Search Vendors",
+  "vendorDetails": "Vendor Details",
+  "verifiedVendor": "Verified Vendor"
 }

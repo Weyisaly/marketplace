@@ -1,6 +1,6 @@
 {
   "appTitle": "Elimde",
-  "homeTitle": "Ygtybarly üpjünçilerden iňňän ýokary hilli önümleri tapyň",
+  "homeTitle": "Ygtybarly telekeçilerden iňňän ýokary hilli önümleri tapyň",
   "homeSubtitle": "Türkmenistanyň ähli ýerindäki satyjylaryndan söwda ediň. Kepillendirilen hil we ajaýyp hyzmat bilen premium önümleriň ýörite saýlanan toplumyny tapyň.",
   "incrementTooltip": "Arttyr",
   "theme": "Tema",
@@ -43,6 +43,8 @@
   "featuredVendors": "Saýlanan Satyjylar",
   "seeAll": "Ählisini Gör",
   "searchProducts": "Harytlary Gözle",
-  "searchVendors": "Satyjylary Gözle"
+  "searchVendors": "Satyjylary Gözle",
+  "vendorDetails": "Satyjy maglumatlary",
+    "verifiedVendor": "Ynamly satyjy"
 }
 
